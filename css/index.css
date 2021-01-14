@@ -1,0 +1,16 @@
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    max-height: 60%;
+    padding: 1rem;
+}
+
+.about-style{
+    font-weight: normal;
+}
+
+.about-subheading{
+    font-size: medium;
+}

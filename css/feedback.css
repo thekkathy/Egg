@@ -1,0 +1,12 @@
+.btn-submit{
+    background-color: #5e524b;
+    color:white;
+    font-weight: 450;
+}
+
+.btn-reset{
+    background-color: transparent;
+    border-color: black;
+    border-width: 1px;
+    font-weight: 450;
+}

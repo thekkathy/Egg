@@ -1,0 +1,10 @@
+Alt Texts
+---------
+
+Baked: Some delicious, freshly baked eggs garnished with fresh parsley.
+
+Boiled: Beautiful, boiled eggs that are just right, topping delicious avacado toast.
+
+Fried: Golden brown sunny side ups, fried to perfection.
+
+Quiche: Warm, fluffy egg quiche that's full of delicious goodness.
