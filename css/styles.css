@@ -37,14 +37,17 @@
 .navbar {
     width: 100%;
     top: 0px;
-    padding: 0px;
+    padding: 0.3rem;
+    position: fixed;
+    opacity: 0.93;
+    z-index: 3;
 }
 
 .navbar-light {
     background-color: rgb(248, 245, 240) !important;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
     color: rgb(73, 73, 73) !important;
 }
 
@@ -58,7 +61,71 @@ a:visited {
     background-color: transparent;
 }
 
-a:hover{
+a:hover {
     color: rgb(139, 114, 99);
     background-color: transparent;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.btn {
+    background-color: #5e524b;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: #948074;
+    color: white;
+}
+
+.btn:focus {
+    background-color: #948074;
+    color: white;
+}
+
+#backToTop {
+    margin: auto;
+    width: 15rem;
+    padding: auto;
+}
+
+#backToTop a {
+    color: white;
+    text-decoration: none;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+    -webkit-transform: translateY(-4em);
+    -ms-transform: translateY(-4em);
+    transform: translateY(-4em);
+    opacity: 0;
+}
+
+.button{
+    margin: auto;
+    text-align: center;
+}
+
+.button:focus {
+    border-color: #5e524b;
+}
+
+.button:focus {
+    background-color: #5e524b;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button--skip-link {
+    margin: 0.2rem auto;
+    position: absolute;
+    z-index: 20;
+    top: 3.5rem;
+    width: 10em;
+    opacity: 1;
+    margin-left: 0.5rem;
 }

@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
+        <!-- SKIP LINK -->
+        <a href="#main" class="button button--skip-link">Skip to Main Content</a>
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -45,8 +47,26 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                aria-expanded="false"
+                            >Home</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Top</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#credits">Credits</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./aboutEggs.html">All About Eggs</a>
@@ -63,67 +83,139 @@
                     </div>
                 </div>
             </nav>
-            <!-- HOMEPAGE -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col mx-auto heading">
-                        <h1 class="display-2">Egg</h1>
-                        <h2 class="display-5">A website about eggs.</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col mx-auto image">
-                        <img
-                            src="images/main_egg.jpg"
-                            class="img-fluid main-egg"
-                            alt="Just some plain, organic eggs."
-                            load="lazy"
-                        >
-                        <p class="description">
-                            <em>Image Description: Just some plain, organic eggs.</em>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <!-- ABOUT -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="display-6 my-4">About</h3>
-                        <div class="col my-4">
-                            <h5 class="about-subheading">What is this site?</h5>
-                            <p>This site was built to appreciate eggs.</p>
+            <main id="main">
+                <!-- HOMEPAGE -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col mx-auto heading">
+                            <h1 class="display-2">Egg</h1>
+                            <h2 class="display-5">A website about eggs.</h2>
                         </div>
-                        <div class="col my-4">
-                            <h5 class="about-subheading">What can I do here?</h5>
-                            <p>You can...</p>
-                            <ul>
-                                <li>
-                                    Learn about different types of eggs in
-                                    <a href="./aboutEggs.html">All About Eggs.</a>
-                                </li>
-                                <li>
-                                    Watch a video about eggs in the
-                                    <a href="./watch.html">Watch</a>
-                                    tab.
-                                </li>
-                                <li>
-                                    Listen to a cute, egg inspired track in the
-                                    <a href="./listen.html">Listen</a>
-                                    tab.
-                                </li>
-                                <li>
-                                    Give this site some feedback in the
-                                    <a href="./feedback.html">Feedback</a>
-                                    tab.
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col mx-auto image">
+                            <img
+                                src="images/main_egg.jpg"
+                                class="img-fluid main-egg"
+                                alt="Just some plain, organic eggs."
+                                load="lazy"
+                            >
+                            <p class="description">
+                                <em>Image Description: Just some plain, organic eggs.</em>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <br>
+                <!-- ABOUT -->
+                <div class="container-fluid mt-4" id="about">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="display-6 my-4">About</h3>
+                            <div class="col my-4">
+                                <h4 class="subheading">What is this site?</h4>
+                                <p>This site was built to appreciate eggs.</p>
+                            </div>
+                            <div class="col my-4">
+                                <h4 class="subheading">What can I do here?</h4>
+                                <p>You can...</p>
+                                <ul>
+                                    <li>
+                                        Learn about different types of eggs in
+                                        <a href="./aboutEggs.html">All About Eggs.</a>
+                                    </li>
+                                    <li>
+                                        Watch a video about eggs in the
+                                        <a href="./watch.html">Watch</a>
+                                        tab.
+                                    </li>
+                                    <li>
+                                        Listen to a cute, egg inspired track in the
+                                        <a href="./listen.html">Listen</a>
+                                        tab.
+                                    </li>
+                                    <li>
+                                        Give this site some feedback in the
+                                        <a href="./feedback.html">Feedback</a>
+                                        tab.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CREDITS -->
+                <div class="container-fluid mt-4" id="credits">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="display-6 my-4">Credits</h3>
+                            <div class="col my-4">
+                                <h4 class="subheading">Image Credits</h4>
+                                <p>
+                                    All images were obtained from
+                                    <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+                                    .
+                                </p>
+                                <p>Support the photographers who provided these images:</p>
+                                <ul>
+                                    <li>
+                                        Home Page Eggs -
+                                        <a href="https://mockup.graphics/?utm_medium=referral&utm_source=unsplash" target="_blank">
+                                            Mockup Graphics
+                                        </a>
+                                    </li>
+                                    <li>
+                                        Baked Eggs -
+                                        <a href="https://unsplash.com/@ccoquet" target="_blank">Christian Coquet</a>
+                                    </li>
+                                    <li>
+                                        Boiled Eggs -
+                                        <a href="https://unsplash.com/@miracletwentyone" target="_blank">Joseph Gonzalez</a>
+                                    </li>
+                                    <li>
+                                        Fried Eggs -
+                                        <a href="https://unsplash.com/@itstrevinooo" target="_blank">Ismael Trevino</a>
+                                    </li>
+                                    <li>
+                                        Quiche -
+                                        <a href="https://unsplash.com/@popnwinbee" target="_blank">Ryan Scott</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col my-4">
+                                <h4 class="subheading">Media Credits</h4>
+                                <p>Where other media was found:</p>
+                                <ul>
+                                    <li>
+                                        Icons -
+                                        <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a>
+                                        and
+                                        <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+                                    </li>
+                                    <li>
+                                        Video -
+                                        <a href="https://www.youtube.com/channel/UC54SLBnD5k5U3Q6N__UjbAw" target="_blank">Chinese Cooking Demystified</a>
+                                    </li>
+                                    <li>
+                                        Music -
+                                        <a href="https://www.youtube.com/channel/UCnoYuk8OX4YTQcw5EK1za9A" target="_blank">Careylicious</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BACK TO TOP -->
+                <div class="container-fluid my-4">
+                    <div class="row center">
+                        <a href="#" tabindex="-1">
+                            <button class="btn" id="backToTop">
+                                ^ Back to top ^
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </main>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-            <script src="js/index.js"></script>
         </body>
     </html>

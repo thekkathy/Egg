@@ -11,6 +11,14 @@
     font-weight: normal;
 }
 
-.about-subheading{
+.subheading{
     font-size: medium;
+}
+
+.dropdown-item{
+    color: rgb(73, 73, 73) !important;;
+}
+
+.dropdown-item:active{
+    background-color: burlywood;
 }

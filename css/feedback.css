@@ -2,6 +2,7 @@
     background-color: #5e524b;
     color:white;
     font-weight: 450;
+    width:fit-content;
 }
 
 .btn-reset{
@@ -9,4 +10,6 @@
     border-color: black;
     border-width: 1px;
     font-weight: 450;
+    width:fit-content;
+    color: black;
 }

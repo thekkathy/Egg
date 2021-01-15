@@ -7,20 +7,3 @@
     width: 35rem;
     padding:auto;
 }
-
-.btn{
-    background-color: #5e524b;
-    color: white;
-    width: 100%;
-    margin:auto;
-}
-
-.btn:hover{
-    background-color: #948074;
-    color:white;
-}
-
-.btn:focus{
-    background-color: #948074;
-    color:white;
-}
