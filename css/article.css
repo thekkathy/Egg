@@ -1,3 +1,13 @@
 .article-main{
     margin-top: 0rem;
 }
+
+.article-subtitle{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.note{
+    margin-bottom:1rem;
+}
