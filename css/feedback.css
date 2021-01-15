@@ -13,3 +13,12 @@
     width:fit-content;
     color: black;
 }
+
+.btn-reset:focus{
+    background-color: #cabcb3;
+    border-color: black;
+    border-width: 1px;
+    font-weight: 450;
+    width:fit-content;
+    color: black;
+}

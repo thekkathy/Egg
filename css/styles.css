@@ -112,9 +112,6 @@ main {
 
 .button:focus {
     border-color: #5e524b;
-}
-
-.button:focus {
     background-color: #5e524b;
     text-decoration: none;
     color: #fff;
