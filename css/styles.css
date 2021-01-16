@@ -99,9 +99,17 @@ main {
 }
 
 .button--skip-link:not(:focus):not(:hover) {
-    -webkit-transform: translateY(-4em);
-    -ms-transform: translateY(-4em);
-    transform: translateY(-4em);
+    -webkit-transform: translateY(-10em);
+    -ms-transform: translateY(-10em);
+    transform: translateY(-10em);
+    opacity: 0;
+}
+
+.button--skip-link:hover{
+    opacity: 0;
+}
+
+.button--skip-link:active{
     opacity: 0;
 }
 
@@ -129,4 +137,8 @@ main {
 
 .button:hover{
     opacity:0;
+}
+
+.button:active{
+    opacity: 0;
 }

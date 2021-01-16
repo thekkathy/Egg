@@ -16,11 +16,6 @@ function changeFocusOnHover(img){
 }
 
 changeFocusOnHover(image0);
-changeFocusOnHover(image1);
+changeFocusOnHover(image1);     
 changeFocusOnHover(image2);
 changeFocusOnHover(image3);
-
-removeHoverOnFocus(image0);
-removeHoverOnFocus(image1);
-removeHoverOnFocus(image2);
-removeHoverOnFocus(image3);

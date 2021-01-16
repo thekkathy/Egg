@@ -32,10 +32,6 @@
     transition: opacity 0.1s;
 }
 
-.img-anchor:hover .image-overlay{
-    opacity: 1;
-}
-
 .img-anchor:focus .image-overlay{
     opacity: 1;
 }
